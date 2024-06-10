@@ -1,7 +1,14 @@
+import Card from "../_components/card";
+
 export default function Transactions(){
     return (
         <div>
-            <h1>Transactions Page</h1>
+            <div>
+                <h1 className="font-semibold text-center text-3xl">Transactions Page</h1>
+            </div>
+            <div>
+                <Card />
+            </div>
         </div>
     );
 }

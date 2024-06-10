@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import NavBar from "./_components/navbar";
+// import { usePathname } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Bra Thobi's POS",
@@ -11,9 +13,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // const currentPath = usePathname()
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-gradient-to-t from-slate-400 to-gray-800 h-full ">
+        <NavBar/>
+        {children}
+      </body>
     </html>
   );
 }
