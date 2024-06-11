@@ -63,7 +63,7 @@ export default function Card() {
                 </div>
                 <div className=" border-slate-500 border-2 rounded-lg bg-slate-400">
                     <div className="text-center">
-                        <Link href="/users" className="text-xl font-semibold hover:text-3xl hover:text-blue-400">Cashier Info</Link>
+                        <Link href="/users" className="text-xl font-semibold hover:text-3xl hover:text-blue-500">Cashier Info</Link>
                     </div>
                     <div className="m-5 grid grid-rows-6 gap-5 text-xl">
                         <h3>Name:</h3>

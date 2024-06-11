@@ -59,16 +59,17 @@ export default function Login(){
     }
     
     return (
-        <div className="text-center text-3xl columns-2 my-36 mx-20 rounded-2xl bg-gradient-to-tr from-amber-500 to-amber-800">
-            <div className="login">
-                <h1 className="drop-shadow-[0_6px_6px_rgba(10,10,10,10)] text-center text-6xl text-amber-600 font-semibold py-40 italic">Lepolankeng</h1>
+        <div className="grid grid-cols-2 gap-0 py-40 text-center px-10 ">
+            <div className="login py-40">
+                <h1 className="drop-shadow-[0_6px_6px_rgba(10,10,10,10)] text-center text-6xl text-amber-600 font-semibold italic">Lepolankeng</h1><br/>
+                <h3 className="text-4xl text-amber-200 italic font-semibold">Snack Bar</h3>
             </div>
-            <div className="py-10 pl-5 pr-10 -my-5">
-                <form method="post" onSubmit={handleSubmit}>
+            <div className="border-2 border-transparent rounded-3xl bg-gradient-to-l from-slate-400 to-slate-900 py-10 px-5">
+                <form method="post" onSubmit={handleSubmit} className="grid grid-rows-2 gap-0">
                     <h1 className="text-3xl font-semibold pb-5">Login</h1>
-                    <input type="text" name="username" placeholder="Username" onChange={handleChange} className="p-5 m-2 bg-amber-500 text-black rounded-xl border-2 border-dotted border-black"/><br/>
-                    <input type="password" name="password" placeholder="Password" onChange={handleChange} className="p-5 m-2 bg-amber-500 text-black rounded-xl border-2 border-dotted border-black"/><br/>
-                    <input type="submit" value="Submit" className="bg-slate-600 hover:bg-red-300 p-2 rounded-xl"/>
+                    <input type="text" name="username" placeholder="Username" onChange={handleChange} className="mx-5 text-3xl text-black font-semibold bg-gradient-to-r from-slate-300 via-slate-400 to-slate-900 border-2 rounded-xl py-3 px-2"/><br/>
+                    <input type="password" name="password" placeholder="Password" onChange={handleChange} className="mx-5 text-3xl text-black font-semibold bg-gradient-to-r from-slate-300 via-slate-400 to-slate-900 border-2 rounded-xl py-3 px-2"/><br/>
+                    <input type="submit" value="Submit" className="text-3xl border-2 border-dotted border-white rounded-lg py-2 mx-10 hover:bg-slate-300 hover:text-green-500 hover:font-semibold hover:border-amber-500"/>
                 </form>
             </div>
         </div>
