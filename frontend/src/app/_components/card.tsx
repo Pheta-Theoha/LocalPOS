@@ -39,11 +39,11 @@ export default function Card() {
                                 <h1>M0</h1>
                             </div>
                         </div>
-                        <button className="text-center text-3xl font-semibold border-2 border-dotted border-black rounded-2xl px-10 py-2 bg-green-400">Submit</button>
+                        <button className="text-center text-3xl font-semibold border-2 border-dotted border-black rounded-2xl px-10 py-2 bg-green-400 hover:bg-green-200">Submit</button>
                     </div>
                     <div className="grid grid-cols-2">
-                        <button className="text-2xl text-center border-2 border-black rounded-lg mx-5 bg-white font-semibold">Reset</button>
-                        <Link href="/" className="text-2xl text-center border-2 border-black rounded-lg mx-5 bg-red-700 font-bold">Logout</Link>
+                        <button className="text-2xl text-center border-2 border-black rounded-lg mx-5 bg-white font-semibold hover:bg-blue-300 hover:text-3xl hover:text-blue-600">Reset</button>
+                        <Link href="/" className="text-2xl text-center border-2 border-black rounded-lg mx-5 bg-red-700 font-bold hover:bg-red-500 hover:text-3xl hover:text-red-200">Logout</Link>
                     </div>
                 </div>
             </div>

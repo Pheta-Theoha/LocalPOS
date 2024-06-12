@@ -16,7 +16,7 @@ export default function RootLayout({
   // const currentPath = usePathname()
   return (
     <html lang="en">
-      <body className="bg-gradient-to-t from-slate-400 to-gray-800 h-full ">
+      <body className="bg-gradient-to-r from-slate-400 to-gray-700 h-full ">
         {/* <NavBar/> */}
         {children}
       </body>
