@@ -67,17 +67,35 @@ export default function Admin() {
                     </div>
                 </div>
             </div>
-            <div className="border-2 border-dotted border-slate-400 rounded-lg my-2">
-                <h1 className="text-center text-3xl font-semibold italic">Statistics</h1>
+            <div className="border-2 border-dotted border-slate-400 rounded-lg my-2 max-h-full">
+                <h1 className="text-center text-3xl font-semibold italic">More Information</h1>
                 <div className="grid grid-cols-3 gap-3">
-                    <div className="m-2 border">
-                        <h1 className="text-2xl text-center font-semibold">Products</h1>
+                    <div className="m-2 border-2 border-double border-slate-400 rounded">
+                        <h1 className="text-2xl text-center font-semibold">Product</h1>
+                        <div className="grid grid-rows-4 p-3">
+                            <h1 className="text-xl font-bold">Name:</h1>
+                            <h1 className="text-xl font-bold">Price:</h1>
+                            <h1 className="text-xl font-bold">Quantity:</h1>
+                            <h1 className="text-xl font-bold">In Stock:</h1>
+                        </div>
                     </div>
-                    <div className="m-2 border">
-                        <h1 className="text-2xl text-center font-semibold">Transactions</h1>
+                    <div className="m-2 border-2 border-double border-slate-400 rounded">
+                        <h1 className="text-2xl text-center font-semibold">Transaction</h1>
+                        <div className="grid grid-rows-4 p-3">
+                            <h1 className="text-xl font-bold">Date:</h1>
+                            <h1 className="text-xl font-bold">Cashier:</h1>
+                            <h1 className="text-xl font-bold">Items:</h1>
+                            <h1 className="text-xl font-bold">Cash:</h1>
+                        </div>
                     </div>
-                    <div className="m-2 border">
-                        <h1 className="text-2xl text-center font-semibold">Users</h1>
+                    <div className="m-2 border-2 border-double border-slate-400 rounded">
+                        <h1 className="text-2xl text-center font-semibold">User</h1>
+                        <div className="grid grid-rows-4 p-3">
+                            <h1 className="text-xl font-bold">Username:</h1>
+                            <h1 className="text-xl font-bold">Full Name:</h1>
+                            <h1 className="text-xl font-bold">Logged In:</h1>
+                            <h1 className="text-xl font-bold">Logged out:</h1>
+                        </div>
                     </div>
                 </div>
             </div>            
