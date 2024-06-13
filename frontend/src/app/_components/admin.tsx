@@ -20,6 +20,10 @@ export default function Admin() {
                             <li>Product 4</li>
                             <li>Product 4</li>
                             <li>Product 4</li>
+                            <li>Product 4</li>
+                            <li>Product 4</li>
+                            <li>Product 4</li>
+                            <li>Product 4</li>
                         </ul>
                     </div>
                 </div>            
@@ -37,6 +41,10 @@ export default function Admin() {
                             <li>Transaction 4</li>
                             <li>Transaction 4</li>
                             <li>Transaction 4</li>     
+                            <li>Transaction 4</li>
+                            <li>Transaction 4</li>
+                            <li>Transaction 4</li>
+                            <li>Transaction 4</li>
                             <li>Transaction 4</li>
                             <li>Transaction 4</li>
                             <li>Transaction 4</li>
@@ -59,6 +67,10 @@ export default function Admin() {
                             <li>User 4</li>
                             <li>User 4</li>
                             <li>User 4</li>     
+                            <li>User 4</li>
+                            <li>User 4</li>
+                            <li>User 4</li>
+                            <li>User 4</li>
                             <li>User 4</li>
                             <li>User 4</li>
                             <li>User 4</li>

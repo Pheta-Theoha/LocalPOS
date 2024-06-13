@@ -1,4 +1,4 @@
-import Card from "../_components/card";
+import Card from "../_components/cash";
 
 export default function Transactions(){
     return (
