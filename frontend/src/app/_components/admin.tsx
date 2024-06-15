@@ -1,6 +1,6 @@
 export default function Admin() {
     return (
-        <div className="drop-shadow-[0_6px_6px_rgba(0.5,0.5,0.5,0.5)] border-slate-500 border-2 rounded-md h-screen m-5 p-3 bg-slate-500 grid grid-rows-3">
+        <div className="drop-shadow-[0_6px_6px_rgba(0.5,0.5,0.5,0.5)] border-slate-500 border-2 rounded-md m-5 p-3 bg-slate-500 grid grid-rows-3">
             <div className="row-span-2 grid grid-cols-3 gap-2">
                 <div className="border-2 border-slate-400 rounded-md overflow-y-scroll">
                     <h1 className="sticky top-0 bg-slate-600 text-center justify-center text-3xl font-semibold">Products</h1>
@@ -79,7 +79,7 @@ export default function Admin() {
                     </div>
                 </div>
             </div>
-            <div className="border-2 border-dotted border-slate-400 rounded-lg my-2 max-h-full">
+            <div className="border-2 border-dotted border-slate-400 rounded-lg my-2 h-64">
                 <h1 className="text-center text-3xl font-semibold italic">More Information</h1>
                 <div className="grid grid-cols-3 gap-3">
                     <div className="m-2 border-2 border-double border-slate-400 rounded">

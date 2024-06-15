@@ -60,17 +60,17 @@ export default function Login(){
     }
     
     return (
-        <div className="grid grid-cols-2 gap-x-0 place-content-evenly h-screen text-center px-10 ">
+        <div className="grid grid-cols-2 gap-x-0 place-content-evenly h-screen text-center px-32 ">
             <div className="login py-40">
                 <h1 className="drop-shadow-[0_6px_6px_rgba(10,10,10,10)] text-center text-6xl text-amber-600 font-semibold italic">Lepolankeng</h1>
                 <h3 className="text-4xl text-amber-200 italic font-semibold">Snack Bar</h3>
             </div>
-            <div className="border-2 border-transparent rounded-3xl bg-gradient-to-r from-slate-400 to-slate-900 py-10 px-5">
+            <div className="border-2 border-transparent bg-gradient-to-r from-slate-400 to-slate-900 py-10 px-5">
                 <form method="post" onSubmit={handleSubmit} className="grid grid-rows-2 gap-0">
                     <h1 className="text-3xl font-semibold pb-5">Login</h1>
-                    <input type="text" name="username" placeholder="Username" onChange={handleChange} className="mx-5 text-3xl text-white font-semibold bg-gradient-to-l from-slate-500 via-slate-600 to-slate-900 border-2 border-transparent rounded-xl py-3 px-2" required/><br/>
-                    <input type="password" name="password" placeholder="Password" onChange={handleChange} className="mx-5 text-3xl text-white font-semibold bg-gradient-to-l from-slate-500 via-slate-600 to-slate-900 border-2 border-transparent rounded-xl py-3 px-2" required/><br/>
-                    <input type="submit" value="Submit" className="text-3xl border-2 border-dotted border-white rounded-lg py-2 mx-10 text-center hover:bg-slate-300 hover:text-green-500 hover:font-semibold hover:border-amber-500"/><br/>
+                    <input type="text" name="username" placeholder="Username" onChange={handleChange} className="mx-10 text-3xl text-white font-semibold bg-gradient-to-l from-slate-500 via-slate-600 to-slate-900 border-2 border-transparent rounded-xl py-3 px-2" required/><br/>
+                    <input type="password" name="password" placeholder="Password" onChange={handleChange} className="mx-10 text-3xl text-white font-semibold bg-gradient-to-l from-slate-500 via-slate-600 to-slate-900 border-2 border-transparent rounded-xl py-3 px-2" required/><br/>
+                    <input type="submit" value="Submit" className="text-3xl border-2 border-dotted border-white rounded-lg py-2 mx-20 text-center hover:bg-slate-300 hover:text-green-500 hover:font-semibold hover:border-amber-500"/><br/>
                     <Link href="/change" className="text-xl text-blue-400 underline hover:text-2xl hover:text-white">Forgot Password</Link>
                 </form>
             </div>
