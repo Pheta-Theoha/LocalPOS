@@ -1,9 +1,9 @@
 from django.urls import path, include
 from rest_framework import routers
-from .views import UserViewSet
+from .views import UserVerification
 
 router = routers.DefaultRouter()
-router.register(r'', UserViewSet, basename='user')
+router.register(r'', UserVerification, basename='user')
 # router.register(r'', get_by_username, basename='login')
 
 urlpatterns = [

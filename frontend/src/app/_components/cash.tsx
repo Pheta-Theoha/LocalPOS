@@ -32,14 +32,16 @@ export default function Cash() {
                             <h3>Amount Paid:</h3>
                             <h3>Change:</h3>
                         </div>
-                        <div className="grid grid-rows-7 m-5">
-                            <input type="text" className="my-2 rounded-md bg-slate-500"/>
-                            <input type="text" className="my-2 rounded-md bg-slate-500"/>
-                            <input type="text" className="my-2 rounded-md bg-slate-500"/>
-                            <input type="text" className="my-2 rounded-md bg-slate-500"/>
-                            <input type="text" className="my-2 rounded-md bg-slate-500"/>
-                            <input type="text" className="my-2 rounded-md bg-slate-500"/>
-                            <input type="text" className="my-2 rounded-md bg-slate-500"/>
+                        <div className="m-5">
+                            <form action="#" className="grid grid-rows-7">
+                                <input type="text" className="my-2 rounded-md bg-slate-500 text-2xl px-2 w-full"/>
+                                <input type="text" className="my-2 rounded-md bg-slate-500 text-2xl px-2 w-full"/>
+                                <input type="text" className="my-2 rounded-md bg-slate-500 text-2xl px-2 w-full"/>
+                                <input type="text" className="my-2 rounded-md bg-slate-500 text-2xl px-2 w-full"/>
+                                <input type="text" className="my-2 rounded-md bg-slate-500 text-2xl px-2 w-full"/>
+                                <input type="text" className="my-2 rounded-md bg-slate-500 text-2xl px-2 w-full"/>
+                                <input type="text" className="my-2 rounded-md bg-slate-500 text-2xl px-2 w-full"/>
+                            </form>
                         </div>
                     </div>
                     <div className="m-5 border-2 border-slate-500 rounded-lg text-xl h-fill bg-slate-400 text-center">
@@ -73,12 +75,12 @@ export default function Cash() {
                             <h3>Change:</h3>
                         </div>
                         <div className="m-5 grid grid-rows-6 text-xl">
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400 text-2xl px-2 w-full" autoFocus/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-l from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
                         </div>
                     </div>
                 </div>
@@ -96,12 +98,12 @@ export default function Cash() {
                             <h3>Change:</h3>
                         </div>
                         <div className="m-5 grid grid-rows-6 gap-1">
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400"/>
-                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
+                            <input type="text" className="my-2 rounded-md bg-gradient-to-r from-slate-500 to-slate-400 text-2xl px-2 w-full"/>
                         </div>
                     </div>
                 </div>

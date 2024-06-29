@@ -23,7 +23,7 @@ export default function AdminPage(){
                     <h1 className="p-2 text-center text-3xl font-bold">Administrator Panel</h1>
                 </div>
                 <div className="p-2 text-center text-3xl font-semibold">
-                    <button onClick={handleClick} className="border-2 border-dotted border-green-900 px-10 py-1 bg-green-800 rounded-md hover:bg-green-400 hover:text-green-900">SAVE/PRINT</button>
+                    <button onClick={handleClick} className="border-2 border-dotted border-green-900 px-10 py-1 bg-green-800 rounded-md hover:bg-green-400 hover:text-green-900">ADD USER</button>
                 </div>
             </div>
             <div>

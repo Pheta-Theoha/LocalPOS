@@ -25,6 +25,7 @@ export default function Cashier(){
                 <div className="dropdown p-2 font-semibold px-10 py-1">
                     <button className="category border-2 border-dotted border-amber-900 text-3xl px-10 py-1 rounded-md hover:bg-amber-400 hover:text-green-900">Category</button>
                     <div className="dropdown-content rounded-lg text-center ml-5 border-2 border-dotted border-black">
+                        <a href="#" className="text-xl p-3">Fast Food</a>
                         <a href="#" className="text-xl p-3">Liquor</a>
                         <a href="#" className="text-xl p-3">Stock</a>
                     </div>
